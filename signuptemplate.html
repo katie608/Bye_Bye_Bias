@@ -9,20 +9,20 @@
     <meta name="author" content="">
     <link rel="icon" href="http://getbootstrap.com/favicon.ico">
 
-    <title>Signin Template for Bootstrap</title>
+    <title>Signup Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="./Signin Template for Bootstrap_files/bootstrap.min.css" rel="stylesheet">
+    <link href="./signuptemplate/bootstrap.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="./Signin Template for Bootstrap_files/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="./signuptemplate/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="./Signin Template for Bootstrap_files/signin.css" rel="stylesheet">
+    <link href="./signuptemplate/signup.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="./Signin Template for Bootstrap_files/ie-emulation-modes-warning.js"></script>
+    <script src="./signuptemplate/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -35,8 +35,14 @@
 
     <div class="container">
 
-      <form class="form-signin">
-        <h2 class="form-signin-heading">Please sign in</h2>
+      <form class="form-signup">
+        <h2 class="form-signup-heading">Please sign up</h2>
+		<label for="inputName" class="sr-only">First Name</label>
+        <input type="Name" id="inputName" class="form-control" placeholder="First Name" required="">
+		<label for="inputName" class="sr-only">Last Name</label>
+        <input type="Name" id="inputName" class="form-control" placeholder="Last Name" required="">
+		<label for="inputName" class="sr-only">Username</label>
+        <input type="Username" id="inputName" class="form-control" placeholder="Username" required="">
         <label for="inputEmail" class="sr-only">Email address</label>
         <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
         <label for="inputPassword" class="sr-only">Password</label>
@@ -46,14 +52,14 @@
             <input type="checkbox" value="remember-me"> Remember me
           </label>
         </div>
-        <button class="btn-btn-lg-btn-primary-btn-block" type="submit">Sign in</button>
+			<a href="survey.html" class="btn btn-lg btn-default">Sign up</a>
       </form>
-
+	
     </div> <!-- /container -->
 
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="./Signin Template for Bootstrap_files/ie10-viewport-bug-workaround.js"></script>
+    <script src="./signuptemplate/ie10-viewport-bug-workaround.js"></script>
   
 
 </body></html>
