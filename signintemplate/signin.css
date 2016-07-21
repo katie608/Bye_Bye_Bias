@@ -34,20 +34,19 @@ body {
   margin-bottom: -1px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
+  
 }
 .form-signin input[type="password"] {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-.btn-btn-lg-btn-primary-btn-block {
-	background-color: rgb(230, 65, 60);
-	position: relative;
-  height: auto;
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: white;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: rgb(230, 65, 60);
+  border: 1px solid #fff;
   width: 300px;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 10px;
-  font-size: 16px;
 }

@@ -39,17 +39,7 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-.btn-btn-lg-btn-primary-btn-block {
-	background-color: rgb(230, 65, 60);
-	position: relative;
-  height: auto;
-  width: 300px;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 10px;
-  font-size: 16px;
-}
+
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
