@@ -37,8 +37,8 @@
 
       <form class="form-signin">
         <h2 class="form-signin-heading">Please sign in</h2>
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+        <label for="inputName" class="sr-only">Username</label>
+        <input type="Username" id="inputName" class="form-control" placeholder="Username" required="" autofocus="">
         <label for="inputPassword" class="sr-only">Password</label>
         <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
         <div class="checkbox">
@@ -46,7 +46,7 @@
             <input type="checkbox" value="remember-me"> Remember me
           </label>
         </div>
-        <a href="profile.html" class="btn btn-lg btn-default">Sign in</a>
+        <button type="button" class="btn btn-lg btn-default" onclick="checkCredentials()">Sign in</button>
       </form>
 
     </div> <!-- /container -->
@@ -56,4 +56,6 @@
     <script src="./signintemplate/ie10-viewport-bug-workaround.js"></script>
   
 
-</body></html>
+</body>
+<script src="signinstore.js"></script>
+</html>
